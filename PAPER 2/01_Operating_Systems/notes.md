@@ -103,3 +103,71 @@ ensures mutual exclusion.
 
 ### Loading 
 ![alt text](image-3.png)
+
+### Linking 
+![alt text](image-4.png)
+
+## MMT
+
+![alt text](image-6.png)
+## Fixed partition 
+1. Limited degree of programming
+2. Internal Fragmentation
+
+### Variable Partition
+![alt text](image-5.png)
+
+
+## Non - Contiguous Memory Allocation 
+
+### 1. Paging
+
+1. NO external fragmentation.
+2. Internal fragmenation may occurs in last page only.
+![Paging](image-7.png)
+
+NOTE - TLB implemeted using associative registers.
+
+![alt text](image-8.png)
+![alt text](image-9.png)
+
+*****************************************************************
+
+### 2.Multi level paging
+
+1. A single-level page table may be very large
+→requires huge contiguous memory.
+2. To reduce this overhead, multilevel paging is
+used.
+3. ![alt text](image-10.png)
+
+***************************************************************
+Multi level paging
+![alt text](image-11.png)
+
+##### In multi paging , EMAT is 
+![alt text](image-12.png)
+
+
+### 3. Inverted Paging
+
+![alt text](image-14.png)
+
+![alt text](image-13.png)
+
+![alt text](image-15.png)
+
+****************************************************************
+
+### 4. Segmenatation
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+
+
+![alt text](image-19.png)
+
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
